@@ -47,7 +47,7 @@ struct mychain* insertAfterNode(struct mychain* toPutAfterNode, int num) {
     newNode->num = num;
     newNode->next = toPutAfterNode->next;
     toPutAfterNode->next = newNode;
-    return newNode
+    return newNode;
 }
 int main(int argc, char *argv[]) {
     struct mychain* head = (struct mychain*) malloc(sizeof(struct mychain));
