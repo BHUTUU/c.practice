@@ -120,7 +120,7 @@ struct mychain* deleteNodeWithNum(struct mychain* head, int numValue) {
     }
     return head;
 }
-int main(int argc, char *argv[]) {
+int main() {
     struct mychain* head = (struct mychain*) malloc(sizeof(struct mychain));
     struct mychain* second = (struct mychain*) malloc(sizeof(struct mychain));
     struct mychain* third = (struct mychain*) malloc(sizeof(struct mychain));
